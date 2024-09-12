@@ -1,0 +1,25 @@
+1)table:users
+   1) id-->primary
+   2) email-->varchar:255
+   2) user_name-->varchar:255
+   2) first_name-->varchar:255
+   2) last_name-->varchar:255
+   2) display_name-->varchar:255
+   3) password-->varchar:255
+   4) img-->varchar:255
+   5) activation_time_limit-->varchar:255
+   6) email_verified-->varchar:255
+   7) account_activation_code-->varchar:255
+   8) user_role-->varchar:255
+   9) account_status-->tinyint:3
+   10) is_online-->tinyint:3
+   11) last_login-->varchar:255
+   12) password_need_reset-->tinyint:3
+   13) pass_reset_hash-->varchar:255
+   14) display_order-->int:10
+   15) user_id-->int:10
+   16) created_at-->timestamp
+   17) updated_at-->timestamp
+   18) delated_at-->timestamp
+
+2)table:end

@@ -1,0 +1,13 @@
+1)table:notes
+   1) id-->primary
+   2) name-->varchar:255
+   3) note_date-->varchar:255
+   4) note_description-->text
+   5) pin_note-->varchar:255
+   6) display_order-->int:10
+   7) user_id-->int:10
+   8) created_at-->timestamp
+   9) updated_at-->timestamp
+   10) delated_at-->timestamp
+
+2)table:end

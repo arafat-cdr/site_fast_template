@@ -1,0 +1,168 @@
+.top_20{
+	margin-top: 20px;
+}
+.top_25{
+	margin-top: 25px;
+}
+.top_30{
+	margin-top: 30px;
+}
+.top_40{
+	margin-top: 40px;
+}
+.top_50{
+	margin-top: 50px;
+}
+.top_60{
+	margin-top: 60px;
+}
+.top_70{
+	margin-top: 70px;
+}
+.top_80{
+	margin-top: 80px;
+}
+.top_90{
+	margin-top: 90px;
+}
+.top_100{
+	margin-top: 100px;
+}
+
+.btm_5{
+	margin-bottom: 5px;
+}
+
+.btm_10{
+	margin-bottom: 10px;
+}
+
+.btm_15{
+	margin-bottom: 15px;
+}
+
+.btm_20{
+	margin-bottom: 20px;
+}
+.bottom_25{
+	margin-bottom: 25px;
+}
+.bottom_30{
+	margin-bottom: 30px;
+}
+.bottom_40{
+	margin-bottom: 40px;
+}
+.bottom_50{
+	margin-bottom: 50px;
+}
+.bottom_60{
+	margin-bottom: 60px;
+}
+.bottom_70{
+	margin-bottom: 70px;
+}
+.bottom_80{
+	margin-bottom: 80px;
+}
+.bottom_90{
+	margin-bottom: 90px;
+}
+.bottom_100{
+	margin-bottom: 100px;
+}
+.left_5{
+	margin-left: 5px;
+}
+.left_10{
+	margin-left: 10px;
+}
+.left_15{
+	margin-left: 15px;
+}
+.left_20{
+	margin-left: 20px;
+}
+.left_25{
+	margin-left: 25px;
+}
+.left_30{
+	margin-left: 30px;
+}
+
+.right_5{
+	margin-right: 5px;
+}
+.right_10{
+	margin-right: 10px;
+}
+.right_15{
+	margin-right: 15px;
+}
+.right_20{
+	margin-right: 20px;
+}
+.right_25{
+	margin-right: 25px;
+}
+.right_30{
+	margin-right: 30px;
+}
+
+.pad_right_24{
+	padding-right: 24px;
+}
+
+.card_img_top {
+    border-radius: 50%; /* Makes the image rounded */
+    object-fit: cover; /* Ensures the image covers the space */
+    width: 50%; /* Controls the width of the image */
+    margin: 0 auto; /* Centers the image horizontally */
+    margin-top: -30%;
+}
+
+.custom_card{
+	background: #222;
+	border: 1px solid #dd2476;
+	color: rgba(250, 250, 250, 0.8);
+	margin-bottom: 2rem;
+}
+
+.custom_btn {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border-image-source:  var(--gradient) !important; 
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.custom_btn:hover, .custom_btn:focus {
+   background: var(--gradient) !important;
+  -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #fff !important;
+  border: 5px solid #fff !important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+}
+@media (min-width: 992px) {
+    .fixed-height {
+        height: 135px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fixed-height img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .fixed-height p {
+        font-size: 10px; /* Reduce text size to fit */
+        margin: 0; /* Remove unnecessary margins */
+    }
+}

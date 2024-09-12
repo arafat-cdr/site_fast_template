@@ -1,0 +1,14 @@
+1)table:arafat_media
+   1) id-->primary
+   2) group_key-->varchar:255
+   3) file_key-->varchar:255
+   4) file_path-->text
+   5) file_mime_type-->varchar:255
+   5) guid-->varchar:255
+   7) display_order-->int:10
+   8) user_id-->int:10
+   9) created_at-->timestamp
+   10) updated_at-->timestamp
+   11) delated_at-->timestamp
+
+2)table:end

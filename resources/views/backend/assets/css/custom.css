@@ -1,0 +1,33 @@
+.top_20{
+	margin-top: 20px;
+}
+.left_25{
+	margin-left: 25px;
+}
+
+.btm_5{
+	margin-bottom: 5px !important;
+}
+
+.btm_10{
+	margin-bottom: 10px !important;
+}
+
+.btm_15{
+	margin-bottom: 15px !important;
+}
+
+.btm_20{
+	margin-bottom: 20px !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+	padding: 10px !important;
+	color: #10707f !important;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    min-height: 40px;
+}
